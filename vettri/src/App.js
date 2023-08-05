@@ -5,9 +5,19 @@ import tony from "./tony.jpeg";
 import aidslogo from "./CYAN_PNG.png"
 import bg from "./bg.jpg"
 import { render } from '@testing-library/react';
+import { useState } from 'react';
+
 
 
 function App() {
+
+  const [show,setshow]=useState(false)
+
+  function myfunhome1(){
+    setshow(!show)
+  }
+
+
   return (
     <div>
       <img src={bg} class="bg"></img>
@@ -31,7 +41,7 @@ function App() {
             <li>Satoru Gojo</li>
             <li>Toji Fushiguro</li>
             <li>Sukuna</li>
-          </ol>
+          </ol> 
           <img src={tony} height="400" width="400" class="side"></img>
           <ol type="a" start="10">
             <li>line 1</li>
@@ -84,12 +94,12 @@ function App() {
         </a>
       </div>
       <img src={aidslogo} height="1141px" width="913px" class="center"></img>
-
-      <button type="button" onclick="myfunhome()"> Home</button>
-      <button type="button" onclick="myfunhome2()"> Conatct</button>
-      <button type="button" onclick="myfunhome3()"> Address</button>
-
-
+    
+     { show && <div>
+        <p>Hii there</p>
+        </div>
+         }
+      <button type="button" onClick={myfunhome1}> Home</button>
     </div>
   );
 };
