@@ -1,0 +1,23 @@
+.buttons{
+    color: white;
+    background-color: rgba(228, 44, 20, 0.829);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left:300px;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    border-style: solid;
+  }
+  
+  .buttons:hover {
+    color:  rgba(228, 44, 20, 0.829);
+    background-color: rgb(230, 225, 225);  
+    font-weight: bold;
+    box-shadow: -3px 3px 3px rgba(0, 0, 0, 0.758);
+    
+  }
