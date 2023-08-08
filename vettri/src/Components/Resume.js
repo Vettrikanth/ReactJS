@@ -1,15 +1,13 @@
-import tony from "./image/CYAN_PNG.png";
 import './Resume.css';
-
+import resume from './image/resume.jpg'
+import t from './image/tony.jpeg'
+ 
 const Resume=()=>{
     return(
         <div>
-
-        <img src={tony}></img>
-        <h1 class="a">adnkasd</h1>
-
-
+            <img src={resume} className='a'></img>
         </div>
+        
     )
 }
 export default Resume;

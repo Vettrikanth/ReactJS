@@ -123,6 +123,7 @@ p{
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 100px;
+    margin-left:300px;
 }
 
 .grid-item{
