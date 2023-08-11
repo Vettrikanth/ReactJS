@@ -1,12 +1,13 @@
 .font{
     font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
 }
 
 .header{
     color: deepskyblue;
 }
 
-.insta{
+.png{
     height: 50px;
     width: 50px;
 }

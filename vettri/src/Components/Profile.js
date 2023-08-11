@@ -44,7 +44,7 @@ const Profile = () => {
   
           <div class="all">
             <ul>
-              <p>Hobbies</p>
+              <p>Hobbies:</p>
               <li>Anime</li>
               <li>Drive</li>
               <li>Watch Movies/Series</li>
