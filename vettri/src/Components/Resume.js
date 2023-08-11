@@ -16,7 +16,7 @@ const Resume = () => {
                 <li>B.Tech Artificial Intelligence and Data Science 3rd year  CGPA:8.85</li>
             </ol>
             <ol>
-                <p> skills</p>
+                <p> My skills</p>
                 <li>
                     Leadership
                 </li>
@@ -26,16 +26,16 @@ const Resume = () => {
                 <li>Problem Solving</li>
             </ol>
             <ul>
-                <p>PROGRAMMING LANGUAGES & SKILLS</p>
-                <li>Programming: Python</li>
+                <p>Programming Languages</p>
+                <li>Python</li>
                 <li>ML: Scikit learn</li>
                 <li>Data Analysis:
                     <ul>
-                        <li>Excel,  </li>
-                        <li> pandas,</li>
-                        <li>numpy ,</li>
-                        <li> matplot </li>
-                        <li>,seaborn</li>
+                        <li>Excel </li>
+                        <li> Pandas</li>
+                        <li>Numpy</li>
+                        <li>Matplot </li>
+                        <li>Seaborn</li>
                     </ul> </li>
             </ul>
             <ul>

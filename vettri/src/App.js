@@ -11,6 +11,7 @@ import Layout from './Components/Layout.js';
 import Resume from './Components/Resume.js';
 import Projects from './Components/Projects.js';
 import Profile from './Components/Profile.js';
+import Contact from './Components/Contact';
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
         <Route index element={<Profile />} /> 
         <Route path="Resume"  element={<Resume />} />
         <Route path="Projects" element={<Projects />} />
+        <Route path="Contact" element={<Contact />} />
         </Route>
       </Routes>
       </BrowserRouter>

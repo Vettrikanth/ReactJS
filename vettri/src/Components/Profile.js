@@ -68,7 +68,7 @@ const Profile = () => {
         <br></br><br></br>
         <div class="tony">
           <a href="https://variety.com/wp-content/uploads/2022/07/MCDAVEN_EC254.jpg" target="_blank" class="tony">
-            Tony Starkkkk
+            Tony Stark
           </a>
         </div>
         <img src={aidslogo} height="1141px" width="913px" class="center"></img>
